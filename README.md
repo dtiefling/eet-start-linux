@@ -3,7 +3,7 @@ Script that starts Infinity Engine games on Linux with minor enhancements
 
 This project consists of a single shell script `eet-start.sh`. The default
 configuration assumes that there is a `BaldursGateII` binary of
-"Baldur's Gate - Enhanced Edition Trilogy" game installed in `eet/game` path
+*Baldur's Gate - Enhanced Edition Trilogy* game installed in `eet/game` path
 relative to the script. You can change said configuration in the first section
 of the script. The main objective is to enable extra features.
 
