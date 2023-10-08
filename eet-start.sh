@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 # Settings
+GAME_EXEC="BaldursGateII"
 TITLE="Baldur's Gate - Enhanced Edition Trilogy"
 GAME_DIR="games/eet"
 XSETICON_PATH="resources/xseticon"
@@ -42,7 +43,7 @@ if [ ! -d "${GAME_DIR}" ]; then
 fi
 cd "${GAME_DIR}" || exit
 log_work "Starting the game..."
-"./BaldursGateII" &
+"./${GAME_EXEC}" &
 JOB="${!}"
 cd "${SCRIPT_DIR}" || exit
 
