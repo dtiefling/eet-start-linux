@@ -38,7 +38,7 @@ fi
 
 # Start the game
 if [ ! -d "${GAME_DIR}" ]; then
-    log_info "Game not found in $(realpath -em "${GAME_DIR}")."
+    log_err "Game not found in $(realpath -em "${GAME_DIR}")."
     exit 1
 fi
 cd "${GAME_DIR}" || exit
